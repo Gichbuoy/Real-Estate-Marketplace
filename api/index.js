@@ -35,3 +35,24 @@ app.listen(3000, () => {
 // Define routes
 app.use("/api/user", userRouter);
 app.use("/api/auth", authRouter);
+
+
+/*
+* Summary:
+* This code handles errors in an Express.js application by defining an error handling middleware function.
+* The function takes four parameters: err, req, res, and next.
+* It sets the status code and message based on the error object received.
+* If no status code or message is provided, it defaults to 500 (Internal Server Error).
+* Finally, it sends a JSON response with the error details.
+* Code:
+*/
+app.use((err, req, res, next) => {
+    const statusCode = err.statusCode || 500;
+    const message = err.message || 'Internal Server Error';
+    return res.status(statusCode).json({
+        success: false,
+        statusCode,
+        message,
+    });
+    
+});
