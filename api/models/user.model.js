@@ -14,8 +14,15 @@ import mongoose from 'mongoose';
         password: {
             type: String,
             required: true,
-        }
-}, { timestamp: true });
+        },
+        avatar: {
+            type: String,
+            default: "https://i.redd.it/0s865ngkc4t81.jpg",
+        },
+    },
+    { timestamps: true }
+
+);
 
 const User = mongoose.model('User', userSchema);
 
