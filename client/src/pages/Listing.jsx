@@ -5,6 +5,8 @@ import SwiperCore from 'swiper';
 import {Navigation} from 'swiper/modules';
 import 'swiper/css/bundle';
 import  { FaShare, FaMapMarkerAlt, FaBed, FaBath, FaParking, FaChair } from 'react-icons/fa';
+import { useSelector } from 'react-redux';
+import Contact from '../components/Contact';
 
 export default function Listing(){
     SwiperCore.use([Navigation]);
@@ -12,7 +14,9 @@ export default function Listing(){
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(false);
     const [copied, setCopied] = useState(false);
+    const [contact, setContact] = useState(false);
     const params = useParams();
+    const { currentUser } = useSelector((state) => state.user);
     useEffect(() => {
         const fetchListing = async () => {
             try {
@@ -34,7 +38,6 @@ export default function Listing(){
         };
         fetchListing();
     }, [params.listingId]);
-    console.log(loading);
 
     return (
         <main>
@@ -87,7 +90,7 @@ export default function Listing(){
                     {listing.address}
                     </p>
                     <div className='flex gap-4'>
-                        <p className='bg-red-900 w-full max-w-[200px] text-white text-center p-1 rounded-md'>
+                        <p className='bg-orange-900 w-full max-w-[200px] text-white text-center p-1 rounded-md'>
                             {listing.type === 'rent' ? 'For Rent' : listing.type === 'lease' ? 'For Lease' : 'For Sale'}
                         </p>
                         {listing.offer && (
@@ -122,8 +125,17 @@ export default function Listing(){
                             {listing.furnished ? 'Furnished' : 'Unfurnished'}
                         </li>
                     </ul>
+                    {currentUser && listing.userRef !== currentUser._id && !contact && (
+                        <button
+                            onClick={() => setContact(true)}
+                            className='bg-orange-800 text-white rounded-lg uppercase hover:opacity-95 p-3'
+                            >
+                        Contact Landlord
+                        </button>
+                    )}
+                    {contact && <Contact listing={listing}/>}
+                    
                 </div>
-
             </div>     
             )}
 
