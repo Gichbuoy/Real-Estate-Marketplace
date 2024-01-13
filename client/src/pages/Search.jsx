@@ -54,7 +54,7 @@ export default function Search() {
             const searchQuery = urlParams.toString();
             const res = await fetch(`/api/listing/get?${searchQuery}`);
             const data = await res.json();
-            if(data.length > 8){
+            if (data.length > 8){
                 setShowMore(true);
             } else {
                 setShowMore(false);
@@ -69,15 +69,15 @@ export default function Search() {
 
     const handleChange = (e) => {
         if (e.target.id === 'all' || e.target.id === 'rent' || e.target.id === 'sale' || e.target.id === 'lease') {
-            setSidebardata({...sidebardata, type: e.target.id})
+            setSidebardata({ ...sidebardata, type: e.target.id })
         }
 
         if (e.target.id === 'searchTerm'){
-            setSidebardata({...sidebardata, searchTerm: e.target.value})
+            setSidebardata({ ...sidebardata, searchTerm: e.target.value })
         }
 
         if (e.target.id === 'parking' || e.target.id === 'furnished' || e.target.id === 'offer'){
-            setSidebardata({...sidebardata, [e.target.id]: e.target.checked || e.target.checked === 'true' ? true : false,});
+            setSidebardata({ ...sidebardata, [e.target.id]: e.target.checked || e.target.checked === 'true' ? true : false, });
         }
 
         if (e.target.id === 'sort_order'){
