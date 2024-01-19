@@ -28,7 +28,7 @@ export default function Home() { // pieces of state for listing
 
     const fetchRentListings = async () => {
       try {
-        const res = await fetch('/api/listing/get?type=rent&limit=4');
+        const res = await fetch('/api/listing/get?type=rent&limit=6');
         const data = await res.json();
         setRentListings(data);
         fetchSaleListings();
@@ -39,7 +39,7 @@ export default function Home() { // pieces of state for listing
 
     const fetchSaleListings = async () => {
       try {
-        const res = await fetch('/api/listing/get?type=sale&limit=4');
+        const res = await fetch('/api/listing/get?type=sale&limit=6');
         const data = await res.json();
         setSaleListings(data);
         fetchLeaseListings();
@@ -50,7 +50,7 @@ export default function Home() { // pieces of state for listing
 
     const fetchLeaseListings = async () => {
       try {
-        const res = await fetch('/api/listing/get?type=lease&limit=4');
+        const res = await fetch('/api/listing/get?type=lease&limit=6');
         const data = await res.json();
         setLeaseListings(data);
       } catch (error) {
