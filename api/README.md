@@ -48,6 +48,23 @@ MONGODB_URI=mongodb://localhost:3000/find-my-home
 
 I used [Insomnia](https://insomnia.rest/), an API testing platform for designing and testing the APIs
 
+![SignIn](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/api-signin.png)
+
+![UpdateUser](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/api-updateuser.png)
+
+![DeleteUser](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/api-delete.png)
+
+![CreateListing](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/api-createlisting.png)
+
+![DeleteListing](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/api-deletelisting.png)
+
+![GetListings](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/api-getlisting.png)
+
+![Getlisting](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/api-getlistingId.png)
+
+![SearchTerm](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/api-searchterm.png)
+
+
 
 
 
