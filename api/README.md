@@ -17,7 +17,7 @@ Handles routing for authentication, listing operations, and user operations.
 - **utils:** Utilities contain helper functions used throughout the API. Contains utility functions such as error handling and token verification.
 
 ## Setting up the Server
-The [`index.js`]() file sets up the Express server, connects to MongoDB, and defines routes for authentication, listing operations, and user operations. Follow the steps in the Setting up the Server guide to get the API server running.
+The [`index.js`](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/api/index.js) file sets up the Express server, connects to MongoDB, and defines routes for authentication, listing operations, and user operations. Follow the steps in the Setting up the Server guide to get the API server running.
 
 ### Installation
 To set up the api directory and run the server, follow these steps:
@@ -45,6 +45,10 @@ Create a .env file in the api directory and set the MONGODB_URI variable to your
 ```
 MONGODB_URI=mongodb://localhost:3000/find-my-home
 ```
+
+I used [Insomnia](https://insomnia.rest/), an API testing platform for designing and testing the APIs
+
+
 
 
 

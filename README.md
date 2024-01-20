@@ -1,6 +1,6 @@
 # Find My Home - Modern Real Estate Marketplace
 Welcome to Find My Home, a robust real estate web application built with the MERN stack (MongoDB, Express.js, React, and Node.js). This project provided a comprehensive learning experience for me, as an aspiring full-stack developer. 
-- It covering advanced authentication, CRUD operations for the MongoDB, user-friendly features, advanced search functionality, and easy deployment.
+- It covering advanced authentication, CRUD operations for the MongoDB database, user-friendly features, and advanced search functionality.
 
 ## Introduction
 Find My Home is a modern real estate marketplace where users can browse, search, and manage their property listings through their profiles seamlessly, facilitating editing and updates with ease.
@@ -86,7 +86,9 @@ npm run dev
 ```
 
 - Navigate to the client:
-```cd client```
+```
+cd Real-Estate-Marketplace/client
+```
 
 - Run the client
 ```
@@ -94,9 +96,9 @@ npm run dev
 ```
 
 ## Contributing
-Contributions are welcomed from the community! If you'd like to contribute to the Find My Home project.
+Contributions are welcomed from the community! If you'd like to contribute to the Real-Estate-Marketplace project.
 ```
-
+https://github.com/Gichbuoy/Real-Estate-Marketplace/fork
 ```
 
 ## License
