@@ -141,6 +141,9 @@ This project is licensed under the [MIT License.](https://opensource.org/license
 
 ![Home](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/client-getlisting.png)
 
+
+![Home](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/client-getlisting2.png)
+
 `Get Listing by Id - API`
 
 ![Getlisting](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-getlistingId.png)
