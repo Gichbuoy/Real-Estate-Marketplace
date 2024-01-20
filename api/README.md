@@ -50,35 +50,35 @@ I used [Insomnia](https://insomnia.rest/), an API testing platform for designing
 
 `SignIn`
 
-![SignIn](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/blob/main/api-signin.png)
+![SignIn](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-signin.png)
 
 `Update User`
 
-![UpdateUser](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/blob/main/api-updateuser.png)
+![UpdateUser](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-updateuser.png)
 
 `Delete User`
 
-![DeleteUser](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/blob/main/api-delete.png)
+![DeleteUser](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-delete.png)
 
 `Create Listing`
 
-![CreateListing](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshot/api-createlisting.png)
+![CreateListing](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-createlisting.png)
 
 `Delete Listing`
-![DeleteListing](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshot/api-deletelisting.png)
+![DeleteListing](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-deletelisting.png)
 
 `Update Listing`
-![updateListing](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshot/api-updatelisting.png)
+![updateListing](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-updatelisting.png)
 
 `Get All Listings`
-![GetListings](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshot/api-getlisting.png)
+![GetListings](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-getlisting.png)
 
 `Get Listing by Id`
-![Getlisting](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/blob/main/api-getlistingId.png)
+![Getlisting](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-getlistingId.png)
 
 `Search Term`
 
-![SearchTerm](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/blob/main/api-searchterm.png)
+![SearchTerm](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-searchterm.png)
 
 
 
