@@ -52,6 +52,10 @@ I used [Insomnia](https://insomnia.rest/), an API testing platform for designing
 
 ![SignIn](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-signin.png)
 
+`SignUp`
+
+![SignUp](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-signup.png)
+
 `Update User`
 
 ![UpdateUser](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-updateuser.png)
@@ -65,23 +69,23 @@ I used [Insomnia](https://insomnia.rest/), an API testing platform for designing
 ![CreateListing](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-createlisting.png)
 
 `Delete Listing`
+
 ![DeleteListing](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-deletelisting.png)
 
 `Update Listing`
+
 ![updateListing](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-updatelisting.png)
 
 `Get All Listings`
+
 ![GetListings](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-getlisting.png)
 
 `Get Listing by Id`
+
 ![Getlisting](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-getlistingId.png)
 
 `Search Term`
 
 ![SearchTerm](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-searchterm.png)
-
-
-
-
 
 

@@ -103,3 +103,53 @@ https://github.com/Gichbuoy/Real-Estate-Marketplace/fork
 
 ## License
 This project is licensed under the [MIT License.](https://opensource.org/licenses/MIT)
+
+
+### screenshots
+
+`SignIn - Client`
+
+![Home](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/client-signin.png)
+
+
+`SignUp - Client`
+
+![Home](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/client-signup.png)
+
+`SignIn - API`
+
+![SignIn](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-signin.png)
+
+`SignUp - API`
+
+![SignUp](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-signup.png)
+
+
+`Create Property Listing - Client`
+
+![Home](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/client-createlisting.png)
+
+
+![Home](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/client-createlisting2.png)
+
+`Create Listing - API`
+
+![CreateListing](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-createlisting.png)
+
+
+`Get Listing - Client`
+
+![Home](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/client-getlisting.png)
+
+`Get Listing by Id - API`
+
+![Getlisting](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-getlistingId.png)
+
+
+`Search Term - Client`
+
+![Home](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/client-searchterm.png)
+
+`Search Term - API`
+
+![SearchTerm](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/api-searchterm.png)

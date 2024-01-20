@@ -72,3 +72,53 @@ Explore the frontend implementation of key features such as authentication, prop
 6. Redux Toolkit:
 
 - For better state management of global states.
+
+
+### Screenshots
+`Home page`
+
+![Home](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/client-home.png)
+
+
+
+![Home](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/client-home1.png)
+
+
+
+![Home](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/client-home2.png)
+
+
+`SignIn`
+
+![Home](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/client-signin.png)
+
+
+`SignUp`
+
+![Home](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/client-signup.png)
+
+
+`Profile`
+
+![Home](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/client-profile.png)
+
+`Create Property Listing`
+
+![Home](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/client-createlisting.png)
+
+
+![Home](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/client-createlisting2.png)
+
+`Get Listing`
+
+![Home](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/client-getlisting.png)
+
+
+![Home](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/client-getlisting2.png)
+
+`Search Term`
+
+![Home](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshots/client-searchterm.png)
+
+
+
