@@ -48,21 +48,37 @@ MONGODB_URI=mongodb://localhost:3000/find-my-home
 
 I used [Insomnia](https://insomnia.rest/), an API testing platform for designing and testing the APIs
 
-![SignIn](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/api-signin.png)
+`SignIn`
 
-![UpdateUser](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/api-updateuser.png)
+![SignIn](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/blob/main/api-signin.png)
 
-![DeleteUser](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/api-delete.png)
+`Update User`
 
-![CreateListing](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/api-createlisting.png)
+![UpdateUser](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/blob/main/api-updateuser.png)
 
-![DeleteListing](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/api-deletelisting.png)
+`Delete User`
 
-![GetListings](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/api-getlisting.png)
+![DeleteUser](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/blob/main/api-delete.png)
 
-![Getlisting](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/api-getlistingId.png)
+`Create Listing`
 
-![SearchTerm](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/api-searchterm.png)
+![CreateListing](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshot/api-createlisting.png)
+
+`Delete Listing`
+![DeleteListing](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshot/api-deletelisting.png)
+
+`Update Listing`
+![updateListing](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshot/api-updatelisting.png)
+
+`Get All Listings`
+![GetListings](https://github.com/Gichbuoy/Real-Estate-Marketplace/blob/main/screenshot/api-getlisting.png)
+
+`Get Listing by Id`
+![Getlisting](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/blob/main/api-getlistingId.png)
+
+`Search Term`
+
+![SearchTerm](https://github.com/Gichbuoy/Real-Estate-Marketplace/screenshot/blob/main/api-searchterm.png)
 
 
 
