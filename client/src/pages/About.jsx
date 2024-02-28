@@ -1,3 +1,4 @@
+// This file contains content for about page
 import React from 'react'
 
 export default function About() {
