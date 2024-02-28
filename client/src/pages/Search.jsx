@@ -47,7 +47,7 @@ export default function Search() {
                 order: orderFromUrl || 'desc',
             });
         }
-
+//get listings
         const fetchListings = async () => {
             setLoading(true);
             setShowMore(false);
