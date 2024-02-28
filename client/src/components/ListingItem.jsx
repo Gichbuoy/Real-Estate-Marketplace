@@ -1,5 +1,6 @@
+// This file contains listings
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom'; // Assuming you are using react-router-dom
+import { Link } from 'react-router-dom'; 
 import { MdLocationOn } from 'react-icons/md';
 
 export default function ListingItem({ listing }) {
@@ -46,7 +47,7 @@ export default function ListingItem({ listing }) {
     </div>
   );
 }
-
+// props for the listing
 ListingItem.propTypes = {
   listing: PropTypes.shape({
     _id: PropTypes.string.isRequired,
