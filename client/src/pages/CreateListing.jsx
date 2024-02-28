@@ -23,6 +23,7 @@ export default function CreateListing() {
         discountPrice: 0,
         
     });
+    // uploading new image
     const [imageUploadError, setImageUploadError] = useState(false);
     const [uploading, setUploading] = useState(false);
     const [error, setError] = useState(false);
@@ -52,7 +53,7 @@ export default function CreateListing() {
             setUploading(false);
         }
     };
-
+// storing image
     const storeImage = async (file) => {
         return new Promise((resolve, reject) => {
             const storage = getStorage(app);
@@ -78,7 +79,7 @@ export default function CreateListing() {
         });
     };
     
-    
+    // removing image
     const handleRemoveImage = (index) => {
         setFormData({
             ...formData,
@@ -108,7 +109,7 @@ export default function CreateListing() {
             });
         }
     };
-
+//form submission
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
