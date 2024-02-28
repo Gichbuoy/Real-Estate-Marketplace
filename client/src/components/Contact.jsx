@@ -1,3 +1,5 @@
+// This file is for the contact details for the app\
+
 import { useEffect, useState } from 'react';
 import {Link} from 'react-router-dom';
 
